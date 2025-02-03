@@ -4,8 +4,9 @@
 Pour que le fichier `.jar` fonctionne correctement, il faut télécharger et placer le dossier "ressources" dans le même répertoire.
 
 La commande pour executer le `.jar` est la suivante :  
-
-  java --module-path CHEMIN_VERS_JAVAFX_LIB --add-modules javafx.base,javafx.controls,javafx.fxml -jar grp05.jar
+```bash
+java --module-path CHEMIN_VERS_JAVAFX_LIB --add-modules javafx.base,javafx.controls,javafx.fxml -jar grp05.jar
+```  
 
 ### Bugs actuels :
 - Lors du chargement d'une partie, les cartes rouges qui ont été trouvées sont affichées en bleu, à cause d'une erreur de copier/coller dans le chemin du fichier image à afficher.
@@ -13,5 +14,3 @@ La commande pour executer le `.jar` est la suivante :
 - Erreur dans l'affichage du temps.
 
 Le bon fonctionnement de l'IA repose sur la qualité des indices de chaque thème.
-
-Aucun test unitaire n'a été effectué, mais nous avons testé régulièrement les implémentations lors des merges, à l'aide de l'interface graphique.
