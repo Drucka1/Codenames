@@ -1,11 +1,11 @@
 # CodingWeek 2025
 **TELECOM Nancy - 06/01 au 10/01**
 
-Lien de la video : https://youtu.be/xc7H_Tv9wUU
-
 Pour que le fichier `.jar` fonctionne correctement, il faut télécharger et placer le dossier "ressources" dans le même répertoire.
 
-La commande pour executer le `.jar` est la suivante :  java --module-path CHEMIN_VERS_JAVAFX_LIB --add-modules javafx.base,javafx.controls,javafx.fxml -jar grp05.jar
+La commande pour executer le `.jar` est la suivante :  
+
+  java --module-path CHEMIN_VERS_JAVAFX_LIB --add-modules javafx.base,javafx.controls,javafx.fxml -jar grp05.jar
 
 ### Bugs actuels :
 - Lors du chargement d'une partie, les cartes rouges qui ont été trouvées sont affichées en bleu, à cause d'une erreur de copier/coller dans le chemin du fichier image à afficher.
