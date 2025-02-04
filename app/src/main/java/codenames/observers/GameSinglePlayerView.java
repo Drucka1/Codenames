@@ -86,9 +86,9 @@ public class GameSinglePlayerView extends GameView {
                     break;
                 case Red:
                     if (rand.nextBoolean()) {
-                        path = String.valueOf(getClass().getResource("/Blue1.jpg"));
+                        path = String.valueOf(getClass().getResource("/Red1.jpg"));
                     } else {
-                        path = String.valueOf(getClass().getResource("/Blue2.jpg"));
+                        path = String.valueOf(getClass().getResource("/Red2.jpg"));
                     }
                     loadingBarView.stop();
                     game.wrongGuess(CardType.Red, loadingBarView.getElapsedSeconds());
@@ -188,6 +188,7 @@ public class GameSinglePlayerView extends GameView {
                     alert.setContentText("Please enter a number less than the number of cards you have left to guess");
                     alert.showAndWait();
                 }
+                loadingBarView.start();
             });
         }
         game.notifyObservers();
