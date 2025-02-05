@@ -1,8 +1,6 @@
-# Ignore Gradle project-specific cache directory
 .gradle
-.idea
 .project
-# Ignore Gradle build output directory
+.settings
 build
 app/bin
 app/.project
