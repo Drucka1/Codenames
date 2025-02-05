@@ -31,6 +31,9 @@ Avant d'exécuter ce projet, assurez-vous d'avoir les outils suivants installés
     java --module-path JAVAFX_PATH/lib --add-modules javafx.base,javafx.controls,javafx.fxml -jar out/artifacts/grp05_jar/grp05.jar
     ```
 
+# CodingWeek 2025
+**TELECOM Nancy - 06/01 to 10/01**
+
 ## Description
 
 The goal of this project was to implement the game Codenames using Java and JavaFX. You can find the instructions and specifications [here](INSTRUCTIONS.pdf).
