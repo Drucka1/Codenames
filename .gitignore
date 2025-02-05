@@ -2,6 +2,7 @@
 .vscode
 .project
 .settings
+gradle/
 build
 app/bin
-app/.project
+app/.p
